@@ -4,8 +4,6 @@
 
 ---
 
-![AlgoWay Logo](logo.png)
-![NeatRead](https://raw.githubusercontent.com/nikhilpujari/AlgoWayChromeExtension/main/logo.png)
 ![AlgoWay Hint](https://raw.githubusercontent.com/nikhilpujari/AlgoWayChromeExtension/main/screenshots/ss1.png)
 ![AlgoWay Complexity Analysis](https://raw.githubusercontent.com/nikhilpujari/AlgoWayChromeExtension/main/screenshots/ss1.png)
 
