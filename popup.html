@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AlgoWay - <small>LeetCode Helper</small></title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heading-container">
+            <img src="logo.png" alt="AlgoWay Logo" class="logo">
+            <h1>AlgoWay - <small>LeetCode Helper</small></h1>
+        </div>
+
+        <div class="tabs">
+            <div class="tab-list" role="tablist">
+                <button class="tab-trigger active" role="tab" aria-selected="true" data-tab="hints">
+                    Solution Hints
+                </button>
+                <button class="tab-trigger" role="tab" aria-selected="false" data-tab="complexity">
+                    Time & Space Complexity
+                </button>
+            </div>
+
+            <!-- Hints Tab -->
+            <div class="tab-content active" data-tab="hints">
+                <div class="hint-buttons">
+                    <button id="hint1" class="button">Hint 1</button>
+                    <button id="hint2" class="button" style="display: none;">Hint 2</button>
+                    <button id="hint3" class="button" style="display: none;">Hint 3</button>
+                    <button id="pseudocode" class="button" style="display: none;">Pseudo-Code</button>
+                </div>
+            </div>
+
+            <!-- Complexity Tab -->
+            <div class="tab-content" data-tab="complexity">
+                <textarea id="userSolution" placeholder="Paste your solution here..."></textarea>
+                <button id="analyze" class="button">Analyze Complexity</button>
+            </div>
+        </div>
+
+        <!-- Output Section -->
+        <div id="output">
+            <div id="loading" class="loading-spinner" role="status" aria-hidden="true"></div>
+            <!-- Output content will be inserted here -->
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
